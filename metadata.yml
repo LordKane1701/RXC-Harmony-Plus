@@ -1,0 +1,26 @@
+# Version 0.1 
+# New troop enhancment options
+# Elerium Flares (Starving Poet?)
+# PS1 Music (n7kopper)
+# soldier Armor changes!
+# 
+# Version 1.0 RC1
+# Made fully modular! no longer requires its own copy of Harmony! 
+# Interceptors give 4 hardpoints (3 Medium + 1 small)
+# Labs are given a slight bonus to healing injured troops you still will need the other medical facililites, but it will help! 
+# Radars and Hyperwaves have slight increases to range and detection chance and now have the ability to sight alien bases! 
+# Tanks have a health boost (armor and damage remains the same)
+# Base Defense Turrets have a health boost as well! (armor and damage remain the same)
+# soldier Armor changes reverted as I am going to be re-evaluating what exactly I want to accomplish and want to do here but in short:
+# the more specialist armors (PSI,NightOps etc.) are being left alone.
+# initial changes to starting heavy armor not as heavy slightly more protection (very slight)
+
+
+
+name: "ReaverXcom Harmony Plus Plugin DEV"
+version: 1.0 DEV
+description: "Submod for Harmony"
+author: Lord_Kane
+id: "HarmonyPlusDEV"
+master: xcom1
+reservedSpace: 2

@@ -1,0 +1,2329 @@
+items:
+  - type: STR_ELFRIEND
+    size: 6 
+    costSell: 500000
+    costBuy: 500
+#  - type: STR_YUKIMIN
+#    size: 4 
+#    costSell: 200
+#    costBuy: 10
+#  - type: STR_ICHIMI
+#    size: 2 
+#    costSell: 100
+#    costBuy: 5
+
+soldierTransformation:
+  - name: STR_LV05
+    listOrder: 1
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+  # requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    visibilityAtDark:
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 5
+       stamina: 5
+       health: 5
+       bravery: 5
+       reactions: 5
+       firing: 5
+       throwing: 5
+       strength: 5
+       melee: 5
+       mana: 5
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV10
+    listOrder: 2
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 1000
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 10
+       stamina: 10
+       health: 10
+       bravery: 10
+       reactions: 10
+       firing: 10
+       throwing: 10
+       strength: 10
+       melee: 10
+       mana: 10
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV15
+    listOrder: 3
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 1500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 15
+       stamina: 15
+       health: 15
+       bravery: 15
+       reactions: 15
+       firing: 15
+       throwing: 15
+       strength: 15
+       melee: 15
+       mana: 15
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV20
+    listOrder: 4
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 2000
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 20
+       stamina: 20
+       health: 20
+       bravery: 20
+       reactions: 20
+       firing: 20
+       throwing: 20
+       strength: 20
+       melee: 20
+       mana: 20
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV25
+    listOrder: 5
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 2500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 25
+       stamina: 25
+       health: 25
+       bravery: 25
+       reactions: 25
+       firing: 25
+       throwing: 25
+       strength: 25
+       melee: 25
+       mana: 25
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV50
+    listOrder: 6
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 2500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 50
+       stamina: 50
+       health: 50
+       bravery: 50
+       reactions: 50
+       firing: 50
+       throwing: 50
+       strength: 50
+       melee: 50
+       mana: 50
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+    
+  - name: STR_LV05_PSI
+    listOrder: 7
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_PSI_ADEPT
+      - STR_PSIONIC_PRODIGY
+      - STR_PSIBORG
+      - STR_SUPER_PSIBORG
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       psiStrength: 5
+       psiSkill: 5
+       mana: 5
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV10_PSI
+    listOrder: 8
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_PSI_ADEPT
+      - STR_PSIONIC_PRODIGY
+      - STR_PSIBORG
+      - STR_SUPER_PSIBORG
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 1000
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       psiStrength: 10
+       psiSkill: 10
+       mana: 10
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV15_PSI
+    listOrder: 9
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_PSI_ADEPT
+      - STR_PSIONIC_PRODIGY
+      - STR_PSIBORG
+      - STR_SUPER_PSIBORG
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 1500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       psiStrength: 15
+       psiSkill: 15
+       mana: 15
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV20_PSI
+    listOrder: 10
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_PSI_ADEPT
+      - STR_PSIONIC_PRODIGY
+      - STR_PSIBORG
+      - STR_SUPER_PSIBORG
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 2000
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       psiStrength: 20
+       psiSkill: 20
+       mana: 20
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV25_PSI
+    listOrder: 11
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_PSI_ADEPT
+      - STR_PSIONIC_PRODIGY
+      - STR_PSIBORG
+      - STR_SUPER_PSIBORG
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 2500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       psiStrength: 25
+       psiSkill: 25
+       mana: 25
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV50_PSI
+    listOrder: 12
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_PSI_ADEPT
+      - STR_PSIONIC_PRODIGY
+      - STR_PSIBORG
+      - STR_SUPER_PSIBORG
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 2500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       psiStrength: 50
+       psiSkill: 50
+       mana: 50
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV05STR
+    listOrder: 13
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       strength: 5
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV10STR
+    listOrder: 14
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       strength: 10
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV15STR
+    listOrder: 15
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       strength: 15
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV20STR
+    listOrder: 16
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       strength: 20
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV25STR
+    listOrder: 17
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       strength: 25
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV50STR
+    listOrder: 18
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       strength: 50
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+
+  - name: STR_LV05MIL
+    listOrder: 19
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       reactions: 5
+       firing: 5
+       throwing: 5
+       melee: 5
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV10MIL
+    listOrder: 20
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       reactions: 10
+       firing: 10
+       throwing: 10
+       melee: 10
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV15MIL
+    listOrder: 21
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       reactions: 15
+       firing: 15
+       throwing: 15
+       melee: 15
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV20MIL
+    listOrder: 22
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       reactions: 20
+       firing: 20
+       throwing: 20
+       melee: 20
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV25MIL
+    listOrder: 23
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       reactions: 25
+       firing: 25
+       throwing: 25
+       melee: 25
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_LV50MIL
+    listOrder: 24
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+    #requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       reactions: 50
+       firing: 50
+       throwing: 50
+       melee: 50
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_AM
+    listOrder: 9998
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+  # requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    visibilityAtDark: 25
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 25
+       stamina: 25
+       health: 25
+       bravery: 25
+       reactions: 25
+       firing: 25
+       throwing: 25
+       strength: 50
+       melee: 25
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_AA
+    listOrder: 9999
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+  # requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    visibilityAtDark: 50
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 50
+       stamina: 50
+       health: 50
+       bravery: 50
+       reactions: 50
+       firing: 50
+       throwing: 50
+       strength: 75
+       melee: 50
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+  - name: STR_AC
+    listOrder: 10000
+    # requires:
+    #requiresBaseFunc:
+    #  - FUNC_ADVANCED_MEDBAY
+    producedSoldierType: 
+    producedSoldierArmor: STR_NONE_UC
+    keepSoldierArmor: true
+    createsClone: false
+    needsCorpseRecovered: false
+    allowsDeadSoldiers: false
+    allowsLiveSoldiers: true
+    allowsWoundedSoldiers: false
+    allowedSoldierTypes:
+      - STR_SOLDIER
+      - STR_BREACHER
+      - STR_RANGER
+      - STR_SNIPER     
+      - STR_HEAVY
+      - STR_ELITE 
+      - STR_SUPER_SOLDIER
+  # requiredPreviousTransformations:
+    #  - STR_DNA_SAMPLING
+     # forbiddenPreviousTransformations:
+     # - STR_SOLDIER
+    visibilityAtDark: 75
+    requiredMinStats:
+      tu: 0
+      stamina: 0
+      health: 0
+      bravery: 0
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+#    requiredItems:
+#     STR_NANO_AUG_CAN: 1
+    cost: 500
+    transferTime: 0
+    recoveryTime: 0
+#    flatOverallStatChange:
+#      tu: 5
+#      stamina: 5
+#      health: 5
+#      bravery: 5
+#      reactions: 5
+#      firing: 5
+#      throwing: 5
+#      strength: 5
+#      psiStrength: 5
+#      psiSkill: 5
+#      melee: 5
+    percentOverallStatChange:
+       tu: 75
+       stamina: 75
+       health: 75
+       bravery: 75
+       reactions: 75
+       firing: 75
+       throwing: 75
+       strength: 100
+       melee: 75
+  #  percentGainedStatChange:
+   #   tu: 95
+   #   stamina: 95
+    #  health: 95
+    #  bravery: 95
+    #  reactions: 95
+    #  firing: 95
+    #  throwing: 95
+    #  strength: 95
+    #  psiStrength: 95
+   #   psiSkill: 95
+  #    melee: 95
+    useRandomStats: false
+    lowerBoundAtMinStats: false
+    upperBoundAtMaxStats: false
+    upperBoundAtStatCaps: false
+
+
+
+
+
+vars:
+costEngineer: 1500
+costScientist: 1500
+initialFunding: 9000
+performanceBonusFactor: 500
+buildInfiltrationBaseCloseToTheCountry: true
+allowCountriesToCancelAlienPact: true
+ai:
+  extendedFireModeChoice: true
+  destroyBaseFacilities: true
+  pickUpWeaponsMoreActively: true
+  pickUpWeaponsMoreActivelyCiv: false
+fixedUserOptions:
+  allowPsiStrengthImprovement: true
+  weaponSelfDestruction: false
+recommendedUserOptions:
+  aggressiveRetaliation: false
+  alienBleeding: true
+  allowBuildingQueue: true
+  allowPsionicCapture: true
+  anytimePsiTraining: true
+  battleExplosionHeight: 3
+  battleInstantGrenade: false
+  bleedingIndicator: true
+  canSellLiveAliens: true
+  canTransferCraftsWhileAirborne: true
+  changeValueByMouseWheel: 10
+  craftLaunchAlways: true
+  friendlyCraftEscort: true
+  noAlienPanicMessages: true
+  oxceManufactureScrollSpeed: 10
+  oxceManufactureScrollSpeedWithCtrl: 100
+  oxceResearchScrollSpeed: 10
+  oxceResearchScrollSpeedWithCtrl: 100
+  psiStrengthEval: true
+  retainCorpses: true
+  showFundsOnGeoscape: true
+  showMoreStatsInInventoryView: true
+  storageLimitsEnforced: true
+
+armors:
+
+  - type: STR_HEAVY_ARMOR_UC_EASY
+    weight: -5
+    stats:
+      tu: 5
+      bravery: 15
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 36
+  - type: STR_HEAVY_ARMOR_UC_MEDIUM
+    frontArmor: 58
+    sideArmor: 48
+    rearArmor: 38
+    underArmor: 28
+  - type: STR_HEAVY_ARMOR_UC_HARD
+    frontArmor: 49
+    sideArmor: 39
+    rearArmor: 29
+    underArmor: 20
+#  - type: STR_PERSONAL_ARMOR_UC_EASY
+#  - type: STR_PERSONAL_ARMOR_UC_MEDIUM
+#  - type: STR_PERSONAL_ARMOR_UC_HARD
+#  - type: STR_PERSONAL_ARMOR_HEAVY_UC_EASY
+#  - type: STR_PERSONAL_ARMOR_HEAVY_UC_MEDIUM
+#  - type: STR_PERSONAL_ARMOR_HEAVY_UC_HARD
+#  - type: STR_POWER_SUIT_UC_EASY
+#  - type: STR_POWER_SUIT_UC_MEDIUM
+#  - type: STR_POWER_SUIT_UC_HARD
+#  - type: STR_FLYING_SUIT_UC_EASY
+#  - type: STR_FLYING_SUIT_UC_MEDIUM
+#  - type: STR_FLYING_SUIT_UC_HARD
+#  - type: STR_PALADIN_ARMOR_UC_EASY
+#  - type: STR_PALADIN_ARMOR_UC_MEDIUM
+#  - type: STR_PALADIN_ARMOR_UC_HARD
+#  - type: STR_ASSASSIN_ARMOR_UC_EASY
+#  - type: STR_ASSASSIN_ARMOR_UC_MEDIUM
+#  - type: STR_ASSASSIN_ARMOR_UC_HARD 
+
+facilities:
+
+  - type: STR_LABORATORY_LARGE
+    sickBayRelativeBonus: 0.8
+  - type: STR_LABORATORY
+    sickBayRelativeBonus: 0.6
+  - type: STR_SMALL_RADAR_SYSTEM
+    radarRange: 1800
+    radarChance: 10
+    sightRange: 2000
+    sightChance: 2
+  - type: STR_LARGE_RADAR_FACILITY
+    monthlyCost: 72000
+    radarRange: 2800
+    radarChance: 15
+    sightRange: 3000
+    sightChance: 3
+  - type: STR_HYPER_WAVE_DECODER
+    radarRange: 2100
+    radarChance: 67
+    sightRange: 2200
+    sightChance: 30
+  - type: STR_HYPER_WAVE_DECODER_LARGE
+    radarRange: 3000
+    radarChance: 100
+    sightRange: 3100
+    sightChance: 95
+
+
+research:
+
+  - name: STR_OUTSOURCING
+    points: -250
+  - name: STR_OUTSOURCING_GWEAPONS
+    points: -250
+  - name: STR_OUTSOURCING_ARMOR
+    points: -250
+  - name: STR_OUTSOURCING_AIR
+    points: -250
+  - name: STR_OUTSOURCING_TANKS
+    points: -250
+  - name: STR_OUTSOURCING_EQUIPMENT
+    points: -250
+
+units:
+
+  - type: STR_TANK_CANNON_GUARDIAN
+    stats:
+      health: 400
+  - type: STR_TANK_CANNON
+    stats:
+      health: 300
+  - type: STR_TANK_CANNON_ASSAULT
+    stats:
+      health: 200
+  - type: STR_TANK_ROCKET_GUARDIAN
+    stats:
+      health: 400
+  - type: STR_TANK_ROCKET_LAUNCHER
+    stats:
+      health: 300
+  - type: STR_TANK_ROCKET_ASSAULT
+    stats:
+      health: 200
+  - type: STR_TANK_AE_ROCKET_GUARDIAN
+    stats:
+      health: 400
+  - type: STR_TANK_AE_ROCKET_BATTLE
+    stats:
+      health: 300
+  - type: STR_TANK_AE_ROCKET_ASSAULT
+    stats:
+      health: 200
+  - type: STR_TANK_LASER_GUARDIAN
+    stats:
+      health: 400
+  - type: STR_TANK_LASER_CANNON
+    stats:
+      health: 300
+  - type: STR_TANK_LASER_ASSAULT
+    stats:
+      health: 200
+  - type: STR_TANK_CERBERUS
+    stats:
+      health: 160
+  - type: STR_TANK_VIGILANTE
+    stats:
+      health: 110
+  - type: STR_HOVERTANK_PLASMA_GUARDIAN
+    stats:
+      health: 390
+  - type: STR_HOVERTANK_PLASMA
+    stats:
+      health: 300
+  - type: STR_HOVERTANK_PLASMA_ASSAULT
+    stats:
+      health: 200
+  - type: STR_HOVERTANK_LAUNCHER_GUARDIAN
+    stats:
+      health: 200
+  - type: STR_HOVERTANK_LAUNCHER
+    stats:
+      health: 300
+  - type: STR_HOVERTANK_LAUNCHER_ASSAULT
+    stats:
+      health: 200
+  - type: STR_DEFENSE_AP_TURRET_H
+    stats:
+      health: 200
+  - type: STR_DEFENSE_AP_TURRET_R
+    stats:
+      health: 200
+  - type: STR_DEFENSE_LASER_TURRET_H
+    stats:
+      health: 200
+  - type: STR_DEFENSE_LASER_TURRET_R
+    stats:
+      health: 200
+  - type: STR_DEFENSE_PLASMA_TURRET_H
+    stats:
+      health: 200
+  - type: STR_DEFENSE_PLASMA_TURRET_R
+    stats:
+      health: 200
+
+crafts:
+
+  - type: STR_INTERCEPTOR_EASY
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+  - type: STR_INTERCEPTOR
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+  - type: STR_INTERCEPTOR_HARD
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 11]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_SMALL
+

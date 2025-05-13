@@ -1,0 +1,74 @@
+items:
+  - type: STR_ELERIUM_FLARE
+    categories: [STR_CAT_EQUIPMENT]
+    size: 0.1
+    requiresBuy:
+      - STR_ELERIUM_FLARE
+    costBuy: 42680
+    transferTime: 36
+    costSell: 38800
+    costSell: 40
+    weight: 4
+    bigSprite: 250
+    floorSprite: 250
+    handSprite: 250
+    power: 25
+    battleType: 10
+    costPrime:
+      time: 15
+    primeActionName: STR_PRIME_FLARE
+    fuseType: -2
+    fuseTriggerEvents:
+      defaultBehavior: false
+      throwTrigger: true
+    armor: 150
+    attraction: 6
+    listOrder: 4601
+research:
+  - name: STR_ELERIUM_FLARE
+    cost: 1
+    points: 10
+    dependencies:
+      - STR_ALIEN_ALLOYS
+      - STR_ALIEN_GRENADE
+manufacture:
+  - name: STR_ELERIUM_FLARE
+    category: STR_TROOP_EQUIPMENT
+    requires:
+        - STR_ELERIUM_FLARE
+    space: 2
+    time: 10
+    cost: 750
+    requiredItems:
+      STR_ALIEN_GRENADE: 1
+      STR_ELERIUM_115: 1
+      STR_ALIEN_ALLOYS: 2
+    producedItems:
+      STR_ELERIUM_FLARE: 1
+    listOrder: 1296      
+ufopaedia:
+  - id: STR_ELERIUM_FLARE
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_ELERIUM_FLARE_UFOPEDIA
+    listOrder: 4759
+extraSprites:
+  - type: BIGOBS.PCK
+    files:
+      250: Resources/BigOb_EleriumFlare.gif
+  - type: FLOOROB.PCK
+    files:
+      250: Resources/FloorOb_EleriumFlare.gif
+  - type: HANDOB.PCK
+    width: 256
+    height: 40
+    subX: 32
+    subY: 40
+    files:
+      250: Resources/HandOb_EleriumFlare.gif
+extraStrings:
+  - type: en-US
+    strings:
+      STR_ELERIUM_FLARE: "Elerium-Flare"
+      STR_ELERIUM_FLARE_UFOPEDIA: "With knowledge of elerium, we're able to produce a significantly brighter and sturdier flare.  Unfortunately, this comes wih a small increase in weight."
+      STR_PRIME_FLARE: "Prime Flare"
