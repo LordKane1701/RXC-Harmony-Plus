@@ -2326,4 +2326,39 @@ crafts:
       - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_MEDIUM
       - STR_AIR_WEAPON_SMALL
-
+  - type: STR_INTERDICTOR_EASY
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+  - type: STR_INTERDICTOR
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+  - type: STR_INTERDICTOR_HARD
+    weapons: 4
+    weaponTypes:
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+      - [1, 2, 11, 21]
+    weaponStrings:
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM
+      - STR_AIR_WEAPON_MEDIUM

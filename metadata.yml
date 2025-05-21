@@ -1,6 +1,6 @@
 # Version 0.1 
 # New troop enhancment options
-# Elerium Flares (Starving Poet?)
+# Elerium Flares (Starving Poet)
 # PS1 Music (n7kopper)
 # soldier Armor changes!
 # 
@@ -14,11 +14,14 @@
 # soldier Armor changes reverted as I am going to be re-evaluating what exactly I want to accomplish and want to do here but in short:
 # the more specialist armors (PSI,NightOps etc.) are being left alone.
 # initial changes to starting heavy armor not as heavy slightly more protection (very slight)
+#
+# Version 1.0.A 
+# Interdictor hardpoints change
 
 
 
 name: "ReaverXcom Harmony Plus Plugin DEV"
-version: 1.0 DEV
+version: 1.0.A DEV
 description: "Submod for Harmony"
 author: Lord_Kane
 id: "HarmonyPlusDEV"
